@@ -64,17 +64,17 @@ h1 {
 
 .feature-furniture {
 	padding-top: 65px;
-	background-image: url("img/furniture.svg");
+	background-image: url("furniture.jpg");
 }
 
 .feature-lighting {
 	padding-top: 65px;
-	background-image: url("img/lighting.svg");
+	background-image: url(lighting.jpg);
 }
 
 .feature-accessories {
 	padding-top: 65px;
-	background-image: url("img/accessories.svg");
+	background-image: url(accessories.jpg);
 }
 
 .advantages {

@@ -11,11 +11,16 @@ body {
 h1 {
 	width: 254px;
 	margin: 0 auto 8px;
-	font-family: "Arial", sans-serif;
+	font-family: "Georgia", serif;
 	text-align: center;
 	font-weight: normal;
 	font-size: 57px;
 	line-height: 64px;
+}
+
+h2 {
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 12px;
 }
 
 .container {
@@ -27,7 +32,7 @@ h1 {
 .site-header {
 	min-width: 551px;
 	height: 187px;
-	margin-bottom: 150px;
+	margin-bottom: 70px;
 	padding-top: 30px;
 	background: #847462 no-repeat center url("1.jpg");
 	background-size: cover;
@@ -60,6 +65,7 @@ h1 {
 	margin: 0 5px;
 	background-repeat: no-repeat;
 	background-position: center top;
+	text-align: center;
 }
 
 .feature-furniture {
@@ -85,7 +91,12 @@ h1 {
 
 .advantages-list {
 	padding: 0;
+	list-style: none;
 }
+
+.advantages-item {
+	margin-bottom: 15px;
+ }
 
 .site-footer {
 	min-width: 550px;

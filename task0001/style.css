@@ -96,7 +96,20 @@ h2 {
 
 .advantages-item {
 	margin-bottom: 15px;
+	padding-left: 20px;
+	border-left: 20px solid #e2e2e2;
+	color: #999999;
  }
+
+ .standard {
+	border-color: #847462;
+	color: #6a6a6a;
+ }
+
+ .vip {
+	border-color: #ffb864;
+	color: #000000;
+	}
 
 .site-footer {
 	min-width: 550px;

@@ -5,10 +5,11 @@ body {
 	font-family: "Arial", "Helvetica", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
+	background-color: rgb(149, 164, 164);
  }
  
  .container {
-	width: 510px;
+	width: 500px;
 	padding: 0 20px;
 	margin: 0 auto;
  }
@@ -22,7 +23,7 @@ body {
  }
  
  .intro-container {
-	width: 510px;
+	width: 800px;
 	min-height: 150px;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -148,7 +149,7 @@ body {
  }
  
  .site-footer {
-	background-color: #847462;
+	background-color: #44848d;
  }
  
  .site-footer .container {

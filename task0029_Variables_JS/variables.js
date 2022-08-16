@@ -37,3 +37,44 @@ alert( `результат: ${1 + 5}` ); // результат: 6
 //Такое делает только обратные ковычки!!!
 let gor="Gorynych !!!";
 alert(`Hello, ${gor}`);
+
+//BOOLEAN
+let nameFieldChecked = true; // да, поле отмечено
+let ageFieldChecked = false; // нет, поле не отмечено
+
+let isGreater = 12 > 1;
+
+alert( isGreater ); // true (результатом сравнения будет "да")
+
+//NULL
+let age = null; // значение переменной age неизвестно.
+
+//UNDEFINED - неопределенный!!!
+let fruit;
+alert(fruit);
+
+let myage=33;
+//изменим значение на undefined
+myage=undefined;
+alert(myage);
+
+//typeof
+alert(typeof 34);
+alert(typeof (10n));
+alert(typeof (true));
+alert(typeof ("Gorynych"));
+alert(typeof Symbol("id"));
+alert(typeof Math);
+alert(typeof null);
+alert(typeof alert);
+
+
+let name2 = "Ilya";
+// выражение - число 1
+alert( `hello ${1}` ); // hello 1
+
+// выражение - строка "name"
+alert( `hello ${"name"}` ); // hello name
+
+// выражение - переменная, вставим её в строку
+alert( `hello ${name2}` ); // hello Ilya

@@ -55,5 +55,28 @@ let oranges = "3";
 alert( +apples + +oranges ); // 5
 
 // более длинный вариант
-
 alert( Number(apples) + Number(oranges) ); // 5
+
+let a = 1;
+let b = 2;
+let c = 3 - (a = b + 1);
+alert( a ); // 3
+alert( c ); // 0
+
+let a3, b3, c3;
+a3 = b3 = c3 = 2 + 2;
+alert( a3 ); // 4
+alert( b3 ); // 4
+alert( c3 ); // 4
+
+let n = 2;
+n += 5; // теперь n = 7 (работает как n = n + 5)
+n *= 2; // теперь n = 14 (работает как n = n * 2)
+alert( n ); // 14
+
+let D = 2;
+
+D *= 3 + 5;
+
+alert( D ); // 16  (сначала выполнится правая часть, выражение идентично n *= 8)
+

@@ -1,6 +1,6 @@
 let i=0;
-while (i<5) {
-	alert (i);
+while (i<10) {
+	alert (i=i+1);//Только нечетные числа! i=i+1
 	i++;
 }
 
